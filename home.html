@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khole ke Hanuman ji</title>
+
+    <!--  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--  -->
+
+    <style>
+      *{
+    background-color: #fffae4;
+}
+nav div ul li a{
+    background-color:  #212529!important;
+}
+marquee {
+	display: inline-block;
+	width: -webkit-fill-available;
+}
+.table>:not(caption)>*>* {
+	padding: 0.2rem 0.5rem;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+  .btn{
+    width: 190px;
+    margin-bottom: 3px;
+    background-color: orange;
+  }
+  .btn:hover {
+    background-color: #00ff2e;
+    color: white;
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: 510px;
+  }
+  #yt-videos iframe{
+    margin: 1rem;
+  }
+  .ulfont li{
+    font-size: 0.74rem;
+  }
+  .play:visited{
+    visibility: hidden;
+    display: none;
+  }
+    </style>
+    
+    
+</head>
+<body>
+    <!-- <h1>Jai Hanuman ji</h1> -->
+    <header>
+    <div class="container-fluid row" style="border: 4px solid #920900; padding: 7px; width: 100%; margin: 0px;">
+      <div class="col-md-2">
+        <div  class="rounded"><img class="mx-auto d-block" src="imageshome\ramji.jpeg" alt="Jai Shree Ram" height="160px"></div>
+      </div>
+      <div class="col-md-8 text-center"><h3 style="letter-spacing: 7px; font-weight:800; margin: 17px; line-height: 1.35;">श्री खोले के हनुमान जी <br> <span  style="word-spacing:-2px; color: brown;"><small>श्रीनरवर<span style="letter-spacing: 0px;">आश्रम सेवा समिति</span></small></span></h3>
+        <footer><i>संस्थापक : अनन्त श्री विभूषित पं राधेलाल जी चौबे (ब्रह्मलीन)</i></footer>
+      </div>
+      <div class="col-md-2">
+        <div  class="rounded"><img  class="mx-auto d-block" src="imageshome\kholekehanumanji.jpeg" alt="Jai Hanuman" height="160px"></div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- navigation-section -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="background-color: #212529!important;">
+  <div class="container-fluid justify-content-center" style="background-color: #212529!important;">
+  <ul class="navbar-nav" style="background-color: #212529!important;">
+    <li class="nav-item">
+      <a class="nav-link" href="home.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="overview.html">Overview</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="schedule.html">Schedule</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="media.html">Media</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="events.html">Events</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="activities.html">Activities</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="donateus.html">Donate Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contactus.html">Contact Us</a>
+    </li>
+  </ul>
+ </div>
+</nav>
+
+   <marquee behavior="ALTERNATE" onmouseover="this.stop();" onmouseout="this.start();" style="color: #0f4400;">।। श्री राम जय राम जय जय राम ।।                   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  GOLDEN BOOK OF WORLD RECORDS
+  </marquee>
+  <marquee behaviour="ALTERNATE" onmouseover="this.stop();" onmouseout="this.start();" style="font-size: 1.6rem; font-weight: 700; color:purple; text-decoration:underline;">श्री हनुमान जन्मोत्सव महाआरती लिंक !!!</marquee>
+  
+  <div class="container-fluid row justify-content-center" style="margin-left: 0px;">
+      <div class="col-md-8">
+          <div  class="embed-responsive embed-responsive-16by9">
+            <iframe style="-webkit-background-size: cover; height: 100%; width: 100%;"  src="https://www.youtube.com/embed/HGRWY0IM0Hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="container flex-row" style="margin: 5px;">
+            <div>
+              <audio id="bell" src="imageshome\MandirKiGhanti.mp3"></audio>
+            <button id="bellbutton" type="button" class="btn" onclick="playAudio('bellButton','bell','MandirKiGhanti.mp3','bellButton');" style=" font-size: 0.8rem;">घंटी बजाए</button>
+            </div>
+            <div>
+            <audio id="aarti" src="imageshome\Hanuman Aarti.mp3"></audio>
+            <button id="aartiButton" type="button" class="btn play" onclick="playAudio2('aartiButton','aarti','Hanuman Aarti.mp3','aartiButton');" style=" font-size: 0.8rem;">आरती चलाए</button>
+            <button id="aartiButton" type="button" class="btn" onclick="pauseAudio2('aartiButton','aarti','Hanuman Aarti.mp3','aartiButton');" style=" font-size: 0.8rem;">आरती रोके </button>
+           </div>
+            <!-- <button type="button" class="btn"  style="font-size: 0.8rem;">हनुमान चालीसा चलाए</button> -->
+            <button type="button" class="btn"  style="font-size: 0.8rem;">सब्सक्राइब करें</button> 
+            
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="text-center">
+          <h4 style="font-weight: 600; border: 2px solid #00b9fd; border-radius: 5px;"><small style="font-weight: 700;">दैनिक आरती कार्यक्रम</small></h4>
+          <table class="table table-borderless" style="font-size: 0.78rem; margin-bottom: 45px;">
+            <tr>
+              <td class="text-success">रविवार, सोमवार, बुधवार, गुरुवार, शुक्रवार</td>
+              <td style="color:maroon;">प्रातः वंदन @ 9.00 AM</td>
+            </tr>
+            <tr>
+              <td class="text-success">रविवार, सोमवार, बुधवार, गुरुवार, शुक्रवार</td>
+              <td style="color:maroon;">संध्या आरती @ 8.30 PM</td>
+            </tr>
+            <tr>
+              <td class="text-success">मंगलवार, शनिवार</td>
+              <td style="color:maroon;">प्रातः वंदन @ 9.00 AM</td>
+            </tr>
+            <tr>
+              <td class="text-success">मंगलवार, शनिवार</td>
+              <td style="color:maroon;">संध्या आरती @ 8.30 PM</td>
+            </tr>
+          </table>
+        </div>
+        <div class=" text-center">
+          <h4 style="font-weight: 700; border: 2px solid #00b9fd; border-radius: 5px;"><small style="font-weight: 700;">भेंट चढ़ाये</small></h4>
+          <div style="font-size: 0.78rem; text-align: justify;">
+            <div>
+            Account Name : SHRI NARWAR ASHRAM SEWA SAMITI<br>
+
+            Bank Name : PUNJAB NATIONAL BANK<br>
+
+            Bank Branch : JOHRI BAZAR, JAIPUR (RAJASTHAN)<br>
+
+            SB Account Number : 01032111000012<br>
+
+            IFSC Code : PUNB0010310<br>
+            </div>
+           <hr style="color: red;">
+           <div style="color: red;">
+             सिन्दूर का चोला: रु 650/-<br>
+
+             पोशाक ठंडी: रु 1300/-<br>
+
+             पोशाक गर्म: रु 2500/-<br>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- sanchipt-vivran+carousel -->
+    <div class="row container-fluid" style="margin-left: 0px;">
+
+      <div class="col-md-8">
+        <h4 class="text-center" style="font-weight: 700; border: 2px solid #00b9fd; border-radius: 5px;"><small style="font-weight: 700;">संक्षिप्त विवरण</small></h4>
+        <div style="margin: 8px; text-align: justify; letter-spacing: 0.09rem; word-spacing: 0.1rem;">
+          <p style="font-size: 0.8rem; line-height: 1.5rem;">राजस्थान की राजधानी जयपुर में हनुमान जी के कई मंदिर हैं। लेकिन खोले के हनुमान जी मंदिर की अपनी एक अलग ही पहचान है। यहां श्रद्धालुओं के अलावा देशी-विदेशी पर्यटक भी प्रकृति की मनोरम छटा को निहारने के लिए दूर-दूर से आते है।</p>
+          <b style="text-decoration:underline ;">अद्भुत है मंदिर का इतिहास</b>
+          <p style="font-size: 0.8rem; line-height: 1.5rem;">60 के दशक में शहर की पूर्वी पहाड़ियों की खोह में बहते बरसाती नाले और पहाड़ों के बीच निर्जन स्थान में जंगली जानवरों के डर से शहरवासी यहां का रूख भी नहीं कर पाते थे तब एक साहसी ब्राह्मण ने इस निर्जन स्थान का रूख किया और यहां पहाड़ पर लेटे हुए हनुमानजी की विशाल मूर्ति खोज निकाली। इस निर्जन जंगल में भगवान को देख ब्राह्मण ने यही पर मारूती नंदन श्री हनुमान जी की सेवा पूजा करनी शुरू कर दी और प्राणान्त होने तक उन्होंने वह जगह नहीं छोड़ी। खोले के हनुमानजी के वे परमभक्त ब्राह्मण थे पंडित राधेलाल चौबे जी। चौबे जी के जीवनभर की अथक मेहनत का ही नतीजा है कि यह निर्जन स्थान आज सुरम्य दर्शनीय स्थल बन गया । 1961 में पंडित राधेलाल चौबे ने मंदिर के विकास के लिए नरवर आश्रम सेवा समिति की स्थापना की। जब यह स्थान निर्जन था तब पहाड़ों की खोह से यहां बरसात का पानी खोले के रूप बहता था। इसीलिए मंदिर का नाम खोले के हनुमानजी पड़ा।<br>स्रोत्र: राजस्थान पत्रिका</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div id="caro" class="carousel slide" data-ride="carousel">
+          
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="imageshome\hanumanji1.jpg"><img src="imageshome\hanumanji1.jpg" alt="Jai Hanuman" height="510px" width="100%"></a>
+            </div>
+            <div class="carousel-item" style="width:100%; height:510px;">
+              <a href="imageshome\hanumanji2.jpg"><img src="imageshome\hanumanji2.jpg" alt="Jai Hanuman"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="imageshome\hanumanji3.jpg"><img src="imageshome\hanumanji3.jpg" alt="Jai Hanuman" width="100%" height="510px"></a>
+            </div>
+          
+          <div class="carousel-item" style="width:100%; height:510px;">
+              <a href="imageshome\hanumanji4.jpg"><img src="imageshome\hanumanji4.jpg" alt="Jai Hanuman"></a>
+            </div>
+          
+          <div class="carousel-item">
+              <a href="imageshome\hanumanji5.jpg"><img src="imageshome\hanumanji5.jpg" alt="Jai Hanuman" width="100%" height="510px"></a>
+            </div>
+          
+          <div class="carousel-item">
+              <a href="imageshome\hanumanji6.jpg"><img src="imageshome\hanumanji6.jpg" alt="Jai Hanuman" width="100%" height="510px"></a>
+            </div>
+          
+          <div class="carousel-item">
+            <a href="imageshome\hanumanji7.jpg"><img src="imageshome\hanumanji7.jpg" alt="Jai Hanuman" width="100%" height="510px"></a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="imageshome\ramji1.jpg"><img src="imageshome\ramji1.jpg" alt="Jai Shree Ram" width="100%" height="510px"></a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="imageshome\ramji2.jpg"><img src="imageshome\ramji2.jpg" alt="Jai Shree Ram" width="100%" height="510px"></a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="imageshome\parishad1.jpg"><img src="imageshome\parishad1.jpg" alt="Jai Shree Ram" width="100%" height="510px"></a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="imageshome\parishad2.jpg"></a><img src="imageshome\parishad2.jpeg" alt="Jai Shree Ram" width="100%" height="510px">
+          </div>
+
+          <div class="carousel-item">
+            <a href="imageshome\parishad3.jpg"></a><img src="imageshome\parishad3.jpeg" alt="Jai Shree Ram" width="100%" height="510px">
+          </div>
+            
+         </div>
+          
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#caro" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#caro" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- scrolling videos -->
+    <marquee behaviour="ALTERNATE" onmouseover="this.stop();" onmouseout="this.start();" style="font-size: 1.6rem; font-weight: 700; color:purple; text-decoration:underline;">
+        <div id="yt-videos" class="flex-row" style="flex-wrap:nowrap;">
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/n4G26kjCgAs" title="Shri khole ke Hanuman Ji Mandir mein फागोत्सव 20 March 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/11pF0jki18c" title="Khole के Hanuman मंदिर की Website का हुआ लोकार्पण" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/QlWEsxaUf4U" title="माननीय श्री कलराज मिश्र, राज्यपाल राजस्थान Visited To श्री खोले के हनुमान जी मंदिर on New Year 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/AAv-xMuIHHQ" title="महाआरती एवं छप्पन भोग झांकी श्री खोले के हनुमान जी मंदिर 6 December 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/6tb3gy4Snbk" title="14 नवंबर 2020 - श्री चौबे जी महाराज की समाधि स्थल पर फूल बंगला की झांकी व विशेष आरती" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <iframe width="300" height="150" src="https://www.youtube.com/embed/z0VTnpvkWvU" title="14 नवंबर 2020 - श्री महालक्ष्मी जी पूजन व दीप प्रज्ज्वलन" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/NoSCTku1PoA" title="श्री खोले के हनुमान जी: वेबसाइट का भव्य लोकार्पण By श्री कलराज मिश्र माननीय राज्यपाल, राजस्थान" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/9HXPgCGqQIs" title="श्री खोले के हनुमान जी: लाइव दर्शन करने हेतु चेनल को Subscribe करें व Bell आइकन को प्रेस करें ।" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/QzkboQooRv8" title="श्री खोले के हनुमान जी : परिदृष्य" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/r0Hlq7662wE" title="श्री खोले के हनुमान जी: एक ऐतिहासिक परिचय" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/u8DUtQKvLxk" title="श्री खोले के हनुमान जी पोस बड़ा प्रसादी उत्सव" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </marquee>
+            <!-- footer -->
+    <div class="row container-fluid" style="border: 2px solid brown; margin-top: 0.6rem; margin-left: 0px;">
+      <div class="col-md-2">
+        <ul class="nav flex-column ulfont">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Activities</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <ul class="nav flex-column ulfont">
+          <li class="nav-item">
+            <a class="nav-link" href="imageshome\hanumanji.pdf">Hanuman Ji</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="imageshome\Management.pdf">Management</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="placestovisit.html">Places to Visit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rasoi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Social Services</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 justify-content-center">
+        <div class="rounded-circle justify-content-center text-success" style="border: 2px solid black; width: 400px; height: 250px; padding-top: 2.2rem; padding-left: 3.55rem;">
+          श्री हनुमत धाम (स्थापित 1961)<br>
+श्री न र व र आश्रम सेवा समिति<br>
+(रजि नं 311/जयपुर/87 -88)<br>
+श्री खोले के हनुमान जी प्रन्यास<br>
+(रजि नं 41 जयपुर 2015)
+        </div>
+      </div>
+      <div class="col-md-4 text-info" >
+        <div style="font-size: 0.75rem; color: brown;">
+        श्री खोले के हनुमान जी<br>
+
+श्री न र व र आश्रम, बाबा श्री निर्मल दास जी का खोला, लक्ष्मण डूंगरी, दिल्ली रोड, जयपुर-302002 (राजस्थान)<br>
+
+फोन : 0141-2631415, 2631416<br>
+
+Email : narvarashram@yahoo.com<br>
+
+Web: https://www.kholekehanumanji.org/<br>
+</div>
+      </div>
+    </div>  
+    <div class="text-primary text-center" ><span style="color: black; font-size: 0.7rem;">हमारा उद्देश्य: भारतीय संस्कृति के मूल आधारों पर जीव-मात्र की आध्यात्मिक एवं धार्मिक उन्नति</span></div>
+
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+    <script>
+      var x = document.getElementById("bell"); 
+      
+      function playAudio() { 
+        x.play(); 
+      } 
+      </script>
+      <script>
+        var y = document.getElementById("aarti"); 
+        
+        function playAudio2() { 
+          y.play(); 
+        } 
+        
+        function pauseAudio2() { 
+          y.pause(); 
+        } 
+      </script>
+</body>
+</html>
